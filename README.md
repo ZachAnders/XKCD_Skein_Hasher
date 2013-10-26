@@ -7,6 +7,7 @@ Just build it with 'make'. Also, it initializes everything with 0x2a. Because I 
 and 42 just seemed like a good answer.
 
 Invoke it with
+
 	./hash_checker_systematic <prefix1> <prefix2> ...
 	
 You can specify any n prefixes, (n>=0) and it will set the first n bytes of the iterator array. (So multiple instances with
